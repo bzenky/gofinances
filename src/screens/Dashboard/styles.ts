@@ -81,7 +81,7 @@ export const Transactions = styled.View`
 export const Title = styled.Text`
     margin-bottom: 16px;
     font-size: ${RFValue(18)}px;
-    font-family: ${({ theme }) => theme.fonts.regular}
+    font-family: ${({ theme }) => theme.fonts.regular};
 `
 
 export const TransactionList = styled(
