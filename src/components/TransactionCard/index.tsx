@@ -27,8 +27,6 @@ export function TransactionCard({ data }: Props) {
         item => item.key === data.category
     )
 
-    console.log(data)
-
     return (
         <Container>
             <Title>{data.name}</Title>
